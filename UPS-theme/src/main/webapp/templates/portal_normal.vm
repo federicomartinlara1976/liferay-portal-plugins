@@ -6,9 +6,7 @@
 
 <head>
 	<title>$the_title - $company_name</title>
-
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
-
 	$theme.include($top_head_include)
 </head>
 
@@ -48,10 +46,6 @@ $theme.include($body_top_include)
 			</h2>
 		</div>
 
-		#if (!$is_signed_in)
-			<a data-redirect="$is_login_redirect_required" href="$sign_in_url" id="sign-in" rel="nofollow">$sign_in_text</a>
-		#end
-
 		#if ($has_navigation || $is_signed_in)
 			#parse ("$full_templates_path/navigation.vm")
 		#end
@@ -64,9 +58,7 @@ $theme.include($body_top_include)
 			$theme.include($content_include)
 		#else
 			$portletDisplay.recycle()
-
 			$portletDisplay.setTitle($the_title)
-
 			$theme.wrapPortlet("portlet.vm", $content_include)
 		#end
 	</div>
@@ -79,7 +71,6 @@ $theme.include($body_top_include)
 </div>
 
 $theme.include($body_bottom_include)
-
 $theme.include($bottom_include)
 
 </body>
