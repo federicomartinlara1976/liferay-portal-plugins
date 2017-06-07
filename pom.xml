@@ -41,6 +41,7 @@
 	<modules>
 		<module>UPS-theme</module>
 		<module>columns-1-4-1</module>
+		<module>carrusel-portlet</module>
 	</modules>
 
 	<profiles>
