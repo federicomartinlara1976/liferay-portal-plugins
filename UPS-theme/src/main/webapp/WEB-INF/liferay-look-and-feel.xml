@@ -8,6 +8,13 @@
 	<theme id="UPS" name="UPS-theme">
 		<settings>
 			<setting configurable="true" key="slogan" value="Your nose knows best!" />
+
+			<setting configurable="true" key="show-breadcrumbs" options="true,false"
+				type="select" value="false" />
+			<setting configurable="true" key="portlet-setup-show-borders-default"
+				options="true,false" type="select" value="true" />
+			<setting configurable="true" key="show-page-title" options="true,false"
+				type="select" value="true" />
 		</settings>
 	</theme>
 </look-and-feel>
