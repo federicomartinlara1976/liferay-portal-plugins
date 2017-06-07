@@ -41,9 +41,11 @@ $theme.include($body_top_include)
 				#end
 			</h1>
 
-			<h2 class="page-title">
-				<span>$the_title</span>
-			</h2>
+			#if ($theme.getSetting('show-page-title') == 'true')			
+				<h2 class="page-title">
+					<span>$the_title</span>
+				</h2>
+			#end
 		</div>
 
 		#if ($has_navigation || $is_signed_in)
