@@ -10,11 +10,11 @@
 			<setting configurable="true" key="slogan" value="Your nose knows best!" />
 
 			<setting configurable="true" key="show-breadcrumbs" options="true,false"
-				type="select" value="false" />
+				type="checkbox" value="false" />
 			<setting configurable="true" key="portlet-setup-show-borders-default"
-				options="true,false" type="select" value="true" />
+				options="true,false" type="checkbox" value="true" />
 			<setting configurable="true" key="show-page-title" options="true,false"
-				type="select" value="true" />
+				type="checkbox" value="true" />
 		</settings>
 	</theme>
 </look-and-feel>
