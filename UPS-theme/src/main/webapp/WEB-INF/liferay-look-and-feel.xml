@@ -5,5 +5,9 @@
 	<compatibility>
 		<version>6.2.0+</version>
 	</compatibility>
-	<theme id="UPS" name="UPS-theme" />
+	<theme id="UPS" name="UPS-theme">
+		<settings>
+			<setting configurable="true" key="slogan" value="Your nose knows best!" />
+		</settings>
+	</theme>
 </look-and-feel>
