@@ -18,8 +18,14 @@
 
 $theme.include($body_top_include)
 
-#if ($is_signed_in)
-	#dockbar()
+#if ( $is_signed_in )    
+    #set ($rService = $serviceLocator.findService("com.liferay.portal.service.RoleService"))
+    #set ($usrRoles = $rService.getUserRoles( $user_id ))
+    #foreach( $usrRole in $usrRoles )
+       #if ( $usrRole.getName() == "Administrator" || $usrRole.getName() == "Content-Admin" || $usrRole.getName() == "Content-Editor")
+          #dockbar()
+       #end
+    #end
 #end
 
 <div class="container-fluid" id="wrapper">
