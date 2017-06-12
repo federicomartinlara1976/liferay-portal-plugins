@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>net.bounceme.chronos</groupId>
+		<artifactId>liferay-portal-plugins</artifactId>
+		<version>${my.version}</version>
+	</parent>
+
+	<groupId>net.bounceme.chronos.liferay</groupId>
+	<artifactId>portlet</artifactId>
+	<version>${my.version}</version>
+	<packaging>pom</packaging>
+
+	<name>liferay-portal-plugins</name>
+	<url>http://www.liferay.com</url>
+
+	<modules>
+		<module>carrusel-portlet</module>
+	</modules>
+
+</project>
