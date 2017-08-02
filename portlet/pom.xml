@@ -18,6 +18,7 @@
 
 	<modules>
 		<module>carrusel-portlet</module>
+		<module>citaMedica-portlet</module>
 	</modules>
 
 </project>
