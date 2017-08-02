@@ -11,7 +11,7 @@
 	<groupId>net.bounceme.chronos.liferay.portlet</groupId>
 	<artifactId>citaMedica-portlet</artifactId>
 	<packaging>war</packaging>
-	<name>carrusel-portlet Portlet</name>
+	<name>citaMedica-portlet Portlet</name>
 	
 	<properties>
 		<myfaces.version>2.2.12</myfaces.version>
