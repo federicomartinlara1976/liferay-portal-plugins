@@ -23,6 +23,8 @@
 		<liferay.app.server.lib.global.dir>${app.server.parent.dir}/${app.server.tomcat.dir}/lib/ext</liferay.app.server.lib.global.dir>
 		<liferay.app.server.portal.dir>${app.server.parent.dir}/${app.server.tomcat.dir}/webapps/root</liferay.app.server.portal.dir>
 		<liferay.auto.deploy.dir>${app.server.parent.dir}/deploy</liferay.auto.deploy.dir>
+	
+		<chronoslibs.version>1.0.Final</chronoslibs.version>
 	</properties>
 
 	<build>
@@ -61,6 +63,14 @@
 		<module>columns-1-4-1</module>
 		<module>carrusel-portlet</module>
 	</modules>
+	
+	<dependencies>
+		<dependency>
+			<groupId>net.bounceme.chronos.chronoslibs</groupId>
+			<artifactId>chronos-utils</artifactId>
+			<version>${chronoslibs.version}</version>
+		</dependency>
+	</dependencies>
 
 	<profiles>
 		<profile>

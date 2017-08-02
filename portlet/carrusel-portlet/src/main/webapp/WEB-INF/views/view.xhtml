@@ -7,10 +7,11 @@
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:p="http://primefaces.org/ui"
 	xmlns:ui="http://java.sun.com/jsf/facelets"
-	xmlns:p="http://primefaces.org/ui"
 >
 	<h:head />
 	<h:body>
-		<h:outputText value="#{i18n['carrusel-portlet-hello-world']}" />
+		<p:carousel value="#{carruselBean.cars}" var="car">
+			<p:graphicImage value="/images/#{car}.jpg"/>
+		</p:carousel>
 	</h:body>
 </f:view>

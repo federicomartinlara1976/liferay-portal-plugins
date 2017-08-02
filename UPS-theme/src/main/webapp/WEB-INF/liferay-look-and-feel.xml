@@ -9,6 +9,8 @@
 		<settings>
 			<setting configurable="true" key="slogan" value="Your nose knows best!" />
 
+			<setting configurable="true" key="show-title" options="true,false"
+				type="checkbox" value="false" />
 			<setting configurable="true" key="show-breadcrumbs" options="true,false"
 				type="checkbox" value="false" />
 			<setting configurable="true" key="portlet-setup-show-borders-default"
